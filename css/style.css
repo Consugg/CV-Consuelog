@@ -1,4 +1,74 @@
+nav{
+  background-color: rgb(255, 255, 255);
+}
+
 body {
-    background-color: rgb(33, 123, 152);
-    font-family: Arial, sans-serif;
-  }
+  color:#4d3d3d;
+  font-family: Arial, sans-serif;
+  background-image: url(../IMG/fondo-2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+    background-position: center;
+}
+
+#Hero-Section {
+  
+  background-image: url(../IMG/fondo1.jpg);
+}
+
+p{
+font-style: normal;
+color: black;
+font-size: 18px;
+text-align: justify;
+}
+
+h1 {
+  color:#4d3d3d;
+}
+
+footer{
+margin-top: 6cm;
+}
+
+/* TRABAJOS */
+
+.dropdown-menu {
+  background-color: rgb(232, 208, 165);
+}
+
+.dropdown-menu a {
+  color: #4d3d3d;
+}
+
+.dropdown-divider {
+  background-color: #8f4429;
+}
+
+.estudios {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5cm;
+  margin-bottom: 5cm;
+  max-width: 1300px; 
+}
+
+/*
+ <header id="Hero-Section" class=" clearfix text-light text-end py-5 mt-5">
+    <div class="container">
+      <div class="content">
+        <div class="ms-auto col-12 col-md-7 ">
+          <h1 class="display-1 fw-bold my-5">
+            ARTISTA <br> AUDIO - VISUAL
+          </h1>
+          <img class="perfil" src="./IMG/fotoperfil.png" alt="Foto de perfil with" width="200">
+          <p class="justify-content-center">
+            Licenciada en Comunicación Social y titulada de Dirección Audiovisual de la Pontificia Universidad
+            Católica de Chile. Master en Dirección Artística de ESCAC Escuela superior de Cinema y Audiovisual
+            de Cataluña. He dirigido mi vida profesional hacía el área Audiovisual y disciplinas blandas enfocadas en el
+            descubrimiento de los límites de la materia.
+          </p>
+        </div>
+      </div>
+    </div>
+  </header>
